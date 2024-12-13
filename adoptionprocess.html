@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-shirt Registration</title>
+    <style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 100%;
+        height: 75px;
+        line-height: 75px;
+        padding: 0% 100px;
+        background-image: linear-gradient(#033747,#102733);
+    }
+    .title{
+        font-size: 30px;
+        font-weight: bold;
+        float: left;
+        color: white;
+        cursor: pointer;
+    }
+    .page{
+        float: right;
+    }
+    li{
+        display: inline-block;
+        list-style: none;
+    }
+    a{
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 0% 30px;
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #ff8c69
+    }
+    .image{
+        background-image: url(doggy.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
+    
+
+    
+</style>
+</head><body>
+    <nav>
+        <div class="logo">
+            <p class="title">Dog Adoption Centre</p>
+        </div>
+        <ul class="page">
+            
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="availabledogs.html">Avalable Dogs</a></li>
+                <li><a href="adoptionprocess.html">adoption process</a></li>
+        </ul>
+    </nav>
+    <div class="image">
+        <center>
+            <h1>Fill the Details</h1>
+        <form>
+            NAME: <input type="text" ><br>
+            Password: <input type="password"><br>
+            Email: <input type="email"><br>
+            Phone: <input type="tel"><br>
+            Super Hero: <select>
+                <option>labrator retriver</option>
+                <option>golden retriver </option>
+                <option>beagle</option>
+                <option>pit bull terrier </option>
+                <option>german shepard</option>
+                <option>chihuahua</option>
+                <option>poodle</option>
+            </select>
+            <br>
+            Colors: <input type="checkbox"> White
+            <input type="checkbox"> Red
+            <input type="checkbox"> Blue
+            <input type="checkbox"> Green
+            <input type="checkbox"> Black
+            <br>
+            Address:
+            <textarea>
+            </textarea>
+            <br>
+            Submit: <input type="submit">
+            Reset: <input type="reset">
+        </form>
+    </center>
+    </div>
+
+ 
+    
+</body>
+</html>
